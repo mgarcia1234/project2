@@ -1,0 +1,56 @@
+body {
+	background-image: linear-gradient(to top, red, black)
+}
+
+h1 {
+	color: white;
+	font-size: 400%;
+	font-family: Helvetica;
+}
+
+p {
+	color: black; 
+	font-size: 150%;
+	font-family: Helvetica;
+	border: 5px black solid;
+	height: auto;
+	margin-right: 3%;
+	margin-left: 3%;
+	padding: 5%;
+	border-radius: 10%;
+}
+
+.grid {
+	display: grid;
+	padding: 1em;
+	grid-template-columns: 1fr 1fr;
+}
+
+.grid-colspan1 {
+	grid-column: span 1;
+}
+
+.grid-colspan2 {
+	grid-column: span 2;
+}
+
+ul {
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
